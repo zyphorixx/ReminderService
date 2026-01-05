@@ -20,7 +20,7 @@ This service is designed to work independently and can be plugged into a larger 
 
 
 🔹 Project Structure (Simplified)
-
+```code
 ReminderService/
 │
 ├── src/
@@ -42,17 +42,18 @@ ReminderService/
 ├── .env
 ├── package.json
 └── README.md
-
-
+```
 ⸻
 
 🔹 Environment Variables Setup
 
 Create a .env file in the root directory:
 
+```code
 PORT=3004
 EMAIL_ID=yourgmail@gmail.com
 EMAIL_PASS=your_gmail_app_password
+```
 
 ⚠️ Important:
 	•	EMAIL_PASS must be a Gmail App Password (not your normal Gmail password)
@@ -117,11 +118,11 @@ Cron Job → Message Queue → Email Service → Gmail SMTP
 
 1️⃣ Install dependencies
 
-npm install
+`npm install`
 
 2️⃣ Start the service
 
-npm start
+`npm start`
 
 3️⃣ Server will run on
 
